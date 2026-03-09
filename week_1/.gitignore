@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pytest cache
+.pytest_cache/
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project-specific ignores
+project/__pycache__/
+project/.pytest_cache/
+project/venv/
+
+# logs and databases
+*.log
+
+# scratch files
+*.txt
+week_1/exercises/*.txt
+week_1/project/*.txt
+
+# ignore saved users.json if it contains data
+exercises/users.json
